@@ -1,6 +1,6 @@
 <h1 align="center">Android Frontend JAVA</h1>
 
-![android java](https://user-images.githubusercontent.com/64855541/138315397-390cb5f5-f4fd-4ac4-84f1-f4dd30d5b9bd.png)
+![4](https://user-images.githubusercontent.com/79747022/138425720-a78592ea-ffca-43bb-9261-b438facbfb03.png)
 
 <div align="center">
 
@@ -17,7 +17,8 @@
 <a href="https://github.com/Dezenix/android-frontend-java/pulls"><img src="https://img.shields.io/github/issues-pr/Dezenix/android-frontend-java?color=brightgreen"></a>
 <a href="https://github.com/Dezenix/android-frontend-java/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Dezenix/android-frontend-java?color=0059b3"></a>
 <!-- <a href="https://github.com/Dezenix/android-frontend-java/issues"><img src="https://img.shields.io/github/issues/Dezenix/android-frontend-java?color=0059b3"></a> -->
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  
 </div>
 
 ## ⚒️ Contribution Guidelines
