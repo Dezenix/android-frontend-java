@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/img_1"
+        android:id="@+id/imageView"
+        android:transitionName="welcome_image"
+        android:layout_margin="50dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/welcome"
+        android:transitionName="welcome_text"
+        android:textColor="#625899"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_a_new_account"
+        android:textSize="16sp"
+        android:textColor="#625899"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:id="@+id/login_button1"
+        android:background="@drawable/filled"
+        app:backgroundTint="#652899"
+        android:text="@string/login"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="40dp"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:id="@+id/register_button1"
+        android:onClick="OpenRegister"
+        android:background="@drawable/filled"
+        app:backgroundTint="#652899"
+        android:text="@string/register"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="30dp"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+</LinearLayout>
+

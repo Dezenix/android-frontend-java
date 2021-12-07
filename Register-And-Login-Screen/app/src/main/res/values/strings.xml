@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login-Register-Screen-UI</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="welcome">Welcome</string>
+    <string name="todo">TODO</string>
+    <string name="don_t_have_an_account_register_here">Don’t have an account? Register here</string>
+    <string name="email">Email</string>
+</resources>
