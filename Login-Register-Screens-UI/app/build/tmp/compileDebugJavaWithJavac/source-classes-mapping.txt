@@ -1,7 +1,7 @@
-com/example/login_register_screen_ui/Login.java
- com.example.login_register_screen_ui.Login
 com/example/login_register_screen_ui/BuildConfig.java
  com.example.login_register_screen_ui.BuildConfig
+com/example/login_register_screen_ui/Login.java
+ com.example.login_register_screen_ui.Login
 com/example/login_register_screen_ui/Register.java
  com.example.login_register_screen_ui.Register
 com/example/login_register_screen_ui/MainActivity.java

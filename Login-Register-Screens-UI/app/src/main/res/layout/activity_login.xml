@@ -19,13 +19,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/login"
         android:id="@+id/text"
         android:layout_gravity="start"
         android:layout_marginStart="52dp"
         android:textColor="#625899"
         android:fontFamily="sans-serif-black"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:layout_marginLeft="52dp"
         android:transitionName="welcome_text"/>
 
@@ -36,9 +36,9 @@
         android:id="@+id/edittext"
         android:transitionName="login_text"
         android:textColorHint="#625899"
-        android:hint="Email"
+        android:hint="@string/email"
         android:paddingLeft="20dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:fontFamily="sans-serif-medium"
         android:layout_marginTop="20dp"/>
 
@@ -48,18 +48,18 @@
         android:background="@drawable/button"
         android:transitionName="login_text"
         android:id="@+id/edittext2"
-        android:hint="Password"
+        android:hint="@string/password"
         android:paddingLeft="20dp"
         android:textColorHint="#625899"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:fontFamily="sans-serif-medium"
         android:layout_marginTop="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forget Password?"
-        android:textSize="14dp"
+        android:text="@string/forget_password"
+        android:textSize="14sp"
         android:transitionName="login_text2"
         android:id="@+id/text2"
         android:textColor="#625899"
@@ -75,7 +75,7 @@
         android:background="@drawable/filled"
         app:backgroundTint="#652899"
         android:transitionName="login_button"
-        android:text="Login"
+        android:text="@string/login"
         android:textSize="18sp"
         android:textColor="#ffffff"
         android:fontFamily="sans-serif-medium"
@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text3"
-        android:text="Don't have an account? Register Here"
+        android:text="@string/don_t_have_an_account_register_here"
         android:textSize="14sp"
         android:transitionName="login_text2"
         android:textColor="#625899"
