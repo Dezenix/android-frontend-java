@@ -4,5 +4,5 @@ Sliders-Shimmer
 </h1>
 
 
-![preview-Grocery Store](https://github.com/Amrita-Mukherjee/website-screens/blob/main/Grocery%20Store/Grocery%20Store.png)
+![preview-Sliders-Shimmer](https://github.com/Dezenix/android-frontend-java/blob/main/sliders-shimmer-%2311/slider/output.mp4)
 
