@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="20dp"
+            app:shimmer_auto_start="true">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="@color/background"
+                app:cardCornerRadius="10dp" />
+
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="20dp"
+            app:shimmer_auto_start="true">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:cardBackgroundColor="@color/background"
+                app:cardCornerRadius="10dp"
+                android:elevation="5dp" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            app:shimmer_auto_start="true">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/background"
+                app:cardCornerRadius="15dp"
+                android:elevation="10dp" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/dotslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
