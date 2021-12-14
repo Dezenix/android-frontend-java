@@ -3,6 +3,7 @@
 Sliders-Shimmer
 </h1>
 
-
-![preview-Sliders-Shimmer](https://github.com/Dezenix/android-frontend-java/blob/main/sliders-shimmer-%2311/output.gif)
+<p float = "center"> 
+  <img src="https://github.com/Dezenix/android-frontend-java/blob/main/sliders-shimmer-%2311/output.gif" height="500" width="280"  />
+</p>
 
