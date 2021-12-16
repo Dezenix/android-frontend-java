@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="order" type="id" />
-    <item name="cart" type="id" />
-    <item name="fav" type="id" />
-</resources>
