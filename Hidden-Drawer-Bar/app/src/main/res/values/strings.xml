@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SEKO-NAV</string>
+    <string name="navigation_draw_open">open navigation drawer</string>
+    <string name="navigation_draw_close">close navigation drawer</string>
+    <string name="favourites_activity">Favourites Activity</string>
+    <string name="cart_activity">Cart Activity</string>
+    <string name="orders_fragment">Orders Fragment</string>
+
+</resources>
