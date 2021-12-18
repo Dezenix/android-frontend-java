@@ -21,11 +21,11 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class chatListAdapter extends RecyclerView.Adapter<chatListAdapter.ViewHolder> {
 
-    private final List<chats> mData;
+    private final List<Chats> mData;
     private final Context mcontext;
     private final LayoutInflater mInflater;
 
-    public chatListAdapter(Context context, List<chats> data){
+    public chatListAdapter(Context context, List<Chats> data){
         this.mcontext = context;
         this.mInflater = LayoutInflater.from(context);
         this.mData = data;

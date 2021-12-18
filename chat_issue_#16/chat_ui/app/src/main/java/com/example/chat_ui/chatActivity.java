@@ -33,7 +33,7 @@ public class chatActivity extends AppCompatActivity {
         dummy_data data = new dummy_data();
         data.setchatsData();
 
-        List<messages> chatsData = data.getChatsData();
+        List<Messages> chatsData = data.getChatsData();
 
 
 

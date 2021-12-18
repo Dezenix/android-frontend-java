@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         dummy_data data = new dummy_data();
         data.setChatsListData();
 
-        List<chats> myChatList = data.getChatsListData();
+        List<Chats> myChatList = data.getChatsListData();
 
         RecyclerView rv = (RecyclerView) findViewById(R.id.chatList);
 

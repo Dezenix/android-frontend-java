@@ -18,11 +18,11 @@ import java.util.List;
 
 public class messagesAdapter extends RecyclerView.Adapter<messagesAdapter.ViewHolder> {
 
-    private final List<messages> mData;
+    private final List<Messages> mData;
     private final Context mcontext;
     private final LayoutInflater mInflater;
 
-    public messagesAdapter(Context context, List<messages> data){
+    public messagesAdapter(Context context, List<Messages> data){
         this.mcontext = context;
         this.mInflater = LayoutInflater.from(context);
         this.mData = data;
