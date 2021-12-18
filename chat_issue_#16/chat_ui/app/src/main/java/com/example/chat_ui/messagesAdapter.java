@@ -37,13 +37,24 @@ public class messagesAdapter extends RecyclerView.Adapter<messagesAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull messagesAdapter.ViewHolder holder, int position) {
+        DisplayDate(holder,position);
+        DisplayTextMessages(holder,position);
+        DisplayImageMessages(holder,position);
+        DisplayVideoMessages(holder, position);
+    }
+
+    // Displaying Date
+    public void DisplayDate(@NonNull messagesAdapter.ViewHolder holder, int position){
         if(mData.get(position).isNewDate()){
             holder.date.setText(mData.get(position).getDate());
             holder.date.setVisibility(View.VISIBLE);
         }else{
             holder.date.setVisibility(View.GONE);
         }
+    }
 
+    // Displaying TextMessages
+    public void DisplayTextMessages(@NonNull messagesAdapter.ViewHolder holder, int position){
         if(mData.get(position).isTextMessage()){
             if(mData.get(position).isSender()){
                 holder.senderMessage.setText(mData.get(position).getText());
@@ -58,7 +69,10 @@ public class messagesAdapter extends RecyclerView.Adapter<messagesAdapter.ViewHo
             holder.sender.setVisibility(View.GONE);
             holder.receive.setVisibility(View.GONE);
         }
+    }
 
+    // Displaying Image Messages
+    public void DisplayImageMessages(@NonNull messagesAdapter.ViewHolder holder, int position){
         if(mData.get(position).isImageMessage()){
             if(mData.get(position).isSender()){
                 Picasso.with(mcontext).load(Uri.parse(mData.get(position).getImgUrl())).placeholder(R.drawable.placeholder).into(holder.senderImage);
@@ -73,7 +87,10 @@ public class messagesAdapter extends RecyclerView.Adapter<messagesAdapter.ViewHo
             holder.senderImgCon.setVisibility(View.GONE);
             holder.receiverImgCon.setVisibility(View.GONE);
         }
+    }
 
+    // Display Video Messages
+    public void DisplayVideoMessages(@NonNull messagesAdapter.ViewHolder holder, int position){
         if(mData.get(position).isVideoMessage()){
             if(mData.get(position).isSender()){
                 Picasso.with(mcontext).load(Uri.parse(mData.get(position).getVideoUrl())).placeholder(R.drawable.placeholder).into(holder.senderVideo);
@@ -95,7 +112,7 @@ public class messagesAdapter extends RecyclerView.Adapter<messagesAdapter.ViewHo
         return mData.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    protected static class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView date, receiverMessage, receiverTime,senderMessage,senderTime,senderImgTime,receiveImgTime,receiveVidTime,senderVidTime;
         LinearLayout receive,sender,senderImgCon,receiverImgCon,senderVidCon,receiveVidCon;

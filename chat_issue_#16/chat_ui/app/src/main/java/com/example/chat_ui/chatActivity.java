@@ -30,98 +30,10 @@ public class chatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
-        List<messages> chatsData = new ArrayList<>();
+        dummy_data data = new dummy_data();
+        data.setchatsData();
 
-        chatsData.add(new messages(
-                "12/12/2021",
-                "4:09 pm",
-                true,
-                true,
-                false,
-                true,
-                false,
-                "Hello, How are you ?",
-                null,
-                null
-        ));
-
-        chatsData.add(new messages(
-                "12/12/2021",
-                "4:10 pm",
-                false,
-                true,
-                false,
-                false,
-                false,
-                "Hey, Bruce! its been a while ?",
-                null,
-                null
-        ));
-
-        chatsData.add(new messages(
-                "12/12/2021",
-                "4:10 pm",
-                false,
-                true,
-                false,
-                false,
-                false,
-                "What's up ?",
-                null,
-                null
-        ));
-
-        chatsData.add(new messages(
-                "12/12/2021",
-                "4:11 pm",
-                false,
-                true,
-                false,
-                true,
-                false,
-                "I wonder if you would like to watch movie tonight ?",
-                null,
-                null
-        ));
-
-        chatsData.add(new messages(
-                "12/12/2021",
-                "4:13 pm",
-                false,
-                true,
-                false,
-                false,
-                false,
-                "Sound's like a good idea!",
-                null,
-                null
-        ));
-
-        chatsData.add(new messages(
-                "Today",
-                "11:10 AM",
-                true,
-                false,
-                false,
-                true,
-                true,
-                null,
-                null,
-                "https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&w=0&h=pCjvUkNlz9_esVvQw2Wgc8VJZBMgJrB0FQmktCA0KYY="
-        ));
-
-        chatsData.add(new messages(
-                "Today",
-                "11:20 AM",
-                false,
-                false,
-                true,
-                false,
-                false,
-                null,
-                "https://i.pinimg.com/originals/9c/b0/70/9cb070d62dc738a0c3a1a408d68e4af5.jpg",
-                null
-        ));
+        List<messages> chatsData = data.getChatsData();
 
 
 

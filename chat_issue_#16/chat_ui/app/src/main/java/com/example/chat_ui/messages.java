@@ -4,27 +4,14 @@ public class messages {
 
     private String date;
     private String time;
-    private boolean isNewDate;
-    private boolean isTextMessage;
-    private boolean isVideoMessage;
-    private boolean isImageMessage;
-    private boolean isSender;
-    private String text;
-    private  String videoUrl;
-    private String imgUrl;
-
-    public messages(String date,String time, boolean isNewDate, boolean isTextMessage, boolean isVideoMessage, boolean isSender, boolean isImageMessage, String text,String videoUrl,String imgUrl){
-        this.date = date;
-        this.time = time;
-        this.isNewDate = isNewDate;
-        this.isTextMessage = isTextMessage;
-        this.isVideoMessage = isVideoMessage;
-        this.isImageMessage = isImageMessage;
-        this.text = text;
-        this.videoUrl = videoUrl;
-        this.imgUrl = imgUrl;
-        this.isSender = isSender;
-    }
+    private boolean isNewDate = false;
+    private boolean isTextMessage = false;
+    private boolean isVideoMessage = false;
+    private boolean isImageMessage = false;
+    private boolean isSender = false;
+    private String text = null;
+    private  String videoUrl = null;
+    private String imgUrl = null;
 
 
     public String getTime() {
