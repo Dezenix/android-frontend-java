@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable-v24/senderbackground.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable-v24/serch.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/add.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/back.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/blackcircle.xml" value="0.38385416666666666" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/bottoline.xml" value="0.38385416666666666" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/call.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/camera.xml" value="0.38385416666666666" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/circle.xml" value="0.36574074074074076" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/circle_background.xml" value="0.3635897435897436" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/clickable.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/mke.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/receiverbackground.xml" value="0.38385416666666666" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/senderbackground.xml" value="0.38385416666666666" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/serch.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/video.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/white_shadow.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/drawable/white_shdow.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/layout/activity_chat.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/layout/chat_list_item.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/chat_issue_#16/chat_ui/app/src/main/res/layout/message_item.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

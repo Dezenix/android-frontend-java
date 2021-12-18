@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">chat_ui</string>
+    <string name="Title">Chats</string>
+    <string name="serch">Serch</string>
+    <string name="name_of_person">Name of Person</string>
+    <string name="latest_message_here">Latest message here</string>
+    <string name="time">12:35 AM</string>
+    <string name="kathy_gomez">Kathy Gomez</string>
+    <string name="status">Typing...</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="today">Today</string>
+    <string name="placeholder_m1">Hey, Bruce its beem awhile</string>
+    <string name="time_placeholder1">4:09 PM</string>
+    <string name="placeholder2">Hello, How are you ?</string>
+    <string name="todo">TODO</string>
+</resources>

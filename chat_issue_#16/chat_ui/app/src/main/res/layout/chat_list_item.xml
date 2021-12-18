@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:focusable="true"
+    android:theme="@style/ClickableView"
+    android:clickable="true"
+    android:id="@+id/person"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:layout_weight="0.6">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:cropToPadding="true"
+                android:src="@drawable/demopic"
+                app:civ_border_color="@color/realBlack"
+                app:civ_border_width="2dp"
+                android:id="@+id/profile_pic_chat"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:orientation="vertical"
+            android:paddingVertical="10dp"
+            android:background="@drawable/bottoline"
+            android:paddingHorizontal="5dp">
+
+            <TextView
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/name_of_person"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="1"
+                android:id="@+id/personName"
+                android:textSize="14sp" />
+
+            <TextView
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/latest_message_here"
+                android:maxLines="1"
+                android:textColor="@color/whiteLight"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/latestMesage" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bottoline"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textColor="@color/redLight"
+                android:fontFamily="sans-serif-condensed"
+                android:maxLines="1"
+                android:layout_gravity="center"
+                android:id="@+id/time"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:src="@drawable/circle"
+                android:id="@+id/new_message" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
