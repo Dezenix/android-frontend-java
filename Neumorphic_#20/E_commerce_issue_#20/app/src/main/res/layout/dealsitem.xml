@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:theme="@style/ClickableView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        app:neumorph_shapeType="pressed"
+        android:layout_marginHorizontal="5dp"
+        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+        app:neumorph_shadowColorDark="#2FFFFFFF"
+        app:neumorph_shadowColorLight="#4A000000">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/dealImg" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_alignEnd="@id/dealImg"
+                android:src="@drawable/cart" />
+
+        </RelativeLayout>
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:textSize="14sp"
+        android:id="@+id/cname"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/product_name"
+        android:textColor="#AEFFFDFD"
+        android:paddingStart="20dp"
+        android:textSize="12sp"
+        android:id="@+id/pname"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/_123"
+        android:textColor="#AEFFFDFD"
+        android:paddingStart="20dp"
+        android:textSize="14sp"
+        android:id="@+id/price"
+        android:fontFamily="sans-serif-black" />
+
+
+
+</LinearLayout>

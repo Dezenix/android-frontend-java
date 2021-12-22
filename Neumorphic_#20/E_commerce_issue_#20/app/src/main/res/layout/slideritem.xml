@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:theme="@style/ClickableView"
+    android:layout_height="wrap_content">
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:neumorph_shadowColorDark="#70000000"
+        app:neumorph_shadowColorLight="#1DFFFFFF"
+        app:neumorph_shadowElevation="6dp"
+       >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder"
+            android:id="@+id/imgPoster"
+            android:contentDescription="@string/todo" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+</LinearLayout>
