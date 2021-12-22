@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E_commerce_issue_#20</string>
+    <string name="name">Hi, Arin</string>
+    <string name="welcome">Welcome</string>
+    <string name="todo">TODO</string>
+    <string name="shoe">Shoe</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="view_all">View All</string>
+    <string name="hot_deals">Hot Deals</string>
+    <string name="company_name">Company Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="_123">$123</string>
+</resources>
