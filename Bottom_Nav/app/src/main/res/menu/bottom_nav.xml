@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_subjects"
+        android:icon="@drawable/ic_subjects"
+        android:title="Subjects"/>
+    <item
+        android:id="@+id/nav_timetable"
+        android:icon="@drawable/ic_timetable"
+        android:title="Timetable"/>
+    <item
+        android:id="@+id/nav_report"
+        android:icon="@drawable/ic_report"
+        android:title="Report"/>
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history"
+        android:title="History"/>
+
+
+
+
+</menu>
