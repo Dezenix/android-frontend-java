@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">musicly</string>
+    <string name="slogan">listen to music for free</string>
+    <string name="slogan2">on Musicly</string>
+    <string name="_91">+91</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="send_otp">Log In with OTP</string>
+    <string name="or_login_with">or Login with</string>
+    <string name="facebook">facebook</string>
+    <string name="google">google</string>
+    <string name="email">email</string>
+    <string name="enter_code">Enter code</string>
+    <string name="enter_6_digit_code">Enter 6 digit code we sent to</string>
+    <string name="_917228996550">+917228996550</string>
+    <string name="resend_otp">resend otp</string>
+    <string name="edit_my_phone_number">edit my phone number</string>
+    <string name="next">Next</string>
+    <string name="about_you">About You</string>
+    <string name="man">male</string>
+    <string name="female">female</string>
+    <string name="your_name">your name</string>
+    <string name="your_birth_year">your birth year</string>
+    <string name="cancel">Cancel</string>
+    <string name="set">Set</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="musicly">musicly</string>
+    <string name="pick_any_three_to_get_started">Pick any three to get started</string>
+    <string name="hindi">Hindi</string>
+    <string name="discover">Discover</string>
+    <string name="search_something_here">search something here</string>
+    <string name="song_name">Song Name</string>
+    <string name="popular">Most Popular</string>
+    <string name="view_all">View All</string>
+    <string name="ok_to_not_be_ok">Ok to not be ok</string>
+    <string name="alan_walker">Imagine Dragons</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="library">Library</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_library">Your Library</string>
+    <string name="name">Name</string>
+    <string name="artist_or_songs">Artist or Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="_01_55">01:55</string>
+    <string name="_03_25">03:25</string>
+</resources>
