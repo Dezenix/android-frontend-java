@@ -1,6 +1,5 @@
 <h1 align="center">Android Frontend JAVA</h1>
 
-![c](https://user-images.githubusercontent.com/79747022/151584286-e248c552-f1c7-42cd-99ee-878e2db61c87.png)
 
 <div align="center">
 
@@ -47,6 +46,4 @@ Please note that Open Source Design has a [Contributor Code of Conduct](https://
 ## 📜 License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) © Dezenix
-
-![t](https://user-images.githubusercontent.com/79747022/151584314-5a7496a0-50c3-47c0-ba08-4f301a2f56df.png)
 
